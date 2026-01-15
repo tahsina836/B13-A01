@@ -135,6 +135,7 @@ span {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    margin-top: 44px;
 }
 
 .grid-box {
@@ -146,6 +147,7 @@ span {
     gap: 16px;
     padding: 24px 24px 24px 24px;
     box-shadow: 1px 4px 25px -4px rgba(0, 0, 0, 0.99);
+    margin-top: 16px;
 }
 
 .grid-box img {
