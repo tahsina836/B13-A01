@@ -59,22 +59,27 @@ header {
 .banner-btn {
 
 
-    width: 200px;
-    height: 49px;
+    width: 251px;
+    height: 52px;
     padding-right: 16px;
     padding-left: 16px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 4px;
-    background-color: #30B868;
+
     color: aliceblue;
     font-weight: 600;
 
+    margin-top: 32px;
 
 
 }
 
 
+.banner-btn:hover {
+    color: rgb(14, 18, 10);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6)
+}
 
 #banner {
     background-image: url("/assets/hero-bg.png");
@@ -98,9 +103,13 @@ header {
     background-color: white;
     color: #30B868;
     width: fit-content;
-    padding: 2px 4px 4px 2px;
 
-
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px 15px 5px 15px
 }
 
 
@@ -123,6 +132,7 @@ span {
 #grid {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .grid-box {
@@ -207,6 +217,11 @@ span {
 
 }
 
+.ready-btn:hover {
+    color: rgb(15, 24, 8);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6)
+}
+
 footer {
 
     background: var(--Style, rgba(0, 25, 49, 1));
@@ -232,7 +247,7 @@ footer {
 
 
 
-    
+
 }
 
 .footer-text {
