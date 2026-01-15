@@ -83,7 +83,7 @@ header {
 
 #banner {
     background-image: url(assets/hero-bg.png);
- 
+
     height: 674px;
 
     margin: 0;
@@ -139,15 +139,16 @@ span {
 }
 
 .grid-box {
-    background-color: rgb(250, 249, 249);
+    background: rgba(255, 255, 255, 1);
     border-radius: 9px;
-    height: 200px;
-    width: 250px;
+
     text-align: center;
     gap: 16px;
     padding: 24px 24px 24px 24px;
-    box-shadow: 1px 4px 25px -4px rgba(0, 0, 0, 0.99);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     margin-top: 16px;
+    width: 322px;
+    height: 300px;
 }
 
 .grid-box img {
@@ -159,6 +160,8 @@ span {
 
 .grid-box p {
     color: rgb(144, 148, 151);
+    font-size: 16px;
+    padding-bottom: 24px;
 }
 
 #brain {
@@ -229,7 +232,7 @@ span {
 footer {
 
     background: var(--Style, rgba(0, 25, 49, 1));
-   
+
     height: 348px;
 }
 
