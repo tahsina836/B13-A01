@@ -151,7 +151,8 @@ span {
     display: flex;
     justify-content: space-between;
     margin: 120px 120px 120px 120px;
-    gap: 60px
+    gap: 60px;
+    text-align: start;
 }
 
 .brain-text {
@@ -168,10 +169,12 @@ span {
 
 }
 
-.brain-text li {
+.brain-list li {
     list-style: url(assets/CheckCircle.png);
 
 }
+
+
 
 .brain-list {
     font-weight: 500;
@@ -191,6 +194,7 @@ span {
     padding-bottom: 80px;
     padding-left: 40px;
     padding-right: 40px;
+    margin: 120px 120px 120px 120px;
 }
 
 .ready-btn {
@@ -201,4 +205,43 @@ span {
     color: aliceblue;
     font-weight: 600;
 
+}
+
+footer {
+
+    background: var(--Style, rgba(0, 25, 49, 1));
+    width: 1600px;
+    height: 348px
+}
+
+#footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.footer-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    margin-top: 16px;
+
+
+
+    
+}
+
+.footer-text {
+    margin-top: 80px;
+    color: rgba(250, 250, 250, 1);
+    text-align: center;
+    border-top: 1px solid rgba(211, 211, 211, 0.366);
+    padding-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-style: regular;
 }
