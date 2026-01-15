@@ -82,10 +82,12 @@ header {
 }
 
 #banner {
-    background-image: url("/assets/hero-bg.png");
-    width: 100%;
+    background-image: url(assets/hero-bg.png);
+ 
     height: 674px;
 
+    margin: 0;
+    padding: 0;
     background-size: cover;
     /* Makes image cover entire width */
     background-position: relative;
@@ -225,8 +227,8 @@ span {
 footer {
 
     background: var(--Style, rgba(0, 25, 49, 1));
-    width: 1600px;
-    height: 348px
+   
+    height: 348px;
 }
 
 #footer-section {
